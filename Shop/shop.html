@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Soap shop</title>
+        <link rel="stylesheet"  href="../index/styles.css">
+    </head>
+    <body>
+        <header>
+            <!-- Logotyp länkad till startsidan -->
+            <a href="../index/index.html">
+                <div class="logo"></div>
+            </a>
+            <nav class="menu">
+                <!-- Hamburger-ikonen för mobilmeny -->
+                <div id= "hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigationslänkar -->
+                <ul id="navLinks" class="navLinks">
+                    <li ><a   href="../index/index.html">Home</a></li>
+                    <li><a href="../about/About.html">About</a></li>
+                    <li><a href="Shop.html" class="active">Shop</a></li> <!-- Aktiv sida markeras -->
+                    <li><a href="../courses/Courses.html">Courses</a></li>
+                    <li><a href="../contact/Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <section>
+            <h1 style="text-align: center;">ONLINE SHOP</h1>
+            <div class="galery-conteiner">
+                <button class="arrow left-arrow" id="leftArrow">&lt;</button>
+                <div class="gallery" id="gallery"> <!-- Galleri med olika produkter -->
+                    <div class="item">
+                        <img src="../images/1.jpg" alt="soap image">
+                        <div>
+                            <h3>  Citrus Burst Soap</h3>
+                            <p>Price: $4.99</p>
+                            <button class="addToCard">Add to card</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../images/2.jpg" alt="soap image">
+                        <div>
+                            <h3> Oatmeal Delight Soap</h3>
+                            <p>Price: $5.99</p>
+                            <button class="addToCard">Add to card</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../images/3.jpg" alt="soap image">
+                        <div>
+                            <h3> Tea Tree Mint Soap</h3>
+                            <p>Price: $5.67</p>
+                            <button class="addToCard">Add to card</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../images/5.png" alt="soap image">
+                        <div>
+                            <h3>  Shea Butter Love Soap</h3>
+                            <p>Price: $7.99</p>
+                            <button class="addToCard">Add to card</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../images/6.png" alt="soap image">
+                        <div>
+                            <h3> Coconut Dream Soap</h3>
+                            <p>Price: $5.99</p>
+                            <button class="addToCard">Add to card</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="../images/7.png" alt="soap image">
+                        <div>
+                            <h3>  Charcoal Detox Soap</h3>
+                            <p>Price: $3.99</p>
+                            <button class="addToCard">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="arrow right-arrow" id="rightArrow">&gt;</button>
+            </div>
+        </section>
+        <div id
+        ="notification-container"></div>
+        <footer>
+            <div>
+            <h2 style="margin-left: 5px;">Contact Us</h2>
+            </div>
+            <div class="footer-contact">
+                <p>Phone: (123) 456-7890</p>
+                <p>&copy; 2024 Soap Shop. All rights reserved.</p>
+            </div>
+        </footer>
+        <script  src="../index/script.js"></script>
+        <script  src="shop.js"></script>
+        <script  src="../contact/contact.js"></script>
+    </body>
+</html>

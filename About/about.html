@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Soap shop</title>
+        <link rel="stylesheet"  href="../index/styles.css">
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <header>
+            <a href="../index/index.html">
+                <div class="logo"></div>
+            </a>
+            <!-- Navigationsmeny -->
+            <nav class="menu">
+                <!-- Hamburgermeny för mobil -->
+                <div id= "hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigationslänkar -->
+                <ul id="navLinks" class="navLinks">
+                    <li ><a href= "../Index/index.html">Home</a></li>
+                    <li><a href="About.html" class="active">About</a></li>
+                    <li><a href="../Shop/Shop.html">Shop</a></li>
+                    <li><a href="../Courses/Courses.html">Courses</a></li>
+                    <li><a href="../Contact/Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <body>
+            
+                <section  class="about-container">
+                    <div class="about-image">
+                        <img src="../images/about.jpg" alt="Soap">
+                    </div>
+                    <!-- Innehåll om VD och företagets filosofi -->
+                    <div class="about-content">
+                        <h2>CEO</h2>
+                        <h1>Sarah Thompson</h1>
+                        <p>At the heart of our Soap Shop is our visionary CEO, Sarah Thompson. With over two decades of experience in the skincare industry, Sarah is a passionate advocate for natural and sustainable beauty products. Her journey began in her grandmother’s kitchen, where she learned the art of soap making using age-old recipes and natural ingredients.</p>
+                        <p> Our philosophy centers around the belief that skincare should be simple, effective, and environmentally conscious. We take pride in creating high-quality, natural soap products. Our soaps are carefully handcrafted using the finest ingredients to ensure they nourish and protect your skin.</p>
+                        <p>Each bar of soap is made with a blend of essential oils, herbs, and natural extracts that provide gentle yet effective cleansing. Our commitment is to offer you products that are free from harmful chemicals, making them safe for all skin types.</p>
+                        <!-- Ytterligare information som är dold -->
+                     <div id="more-info" style="display:none;">
+                            <p>Our soaps are created with love and attention to detail. We believe in sustainability and using eco-friendly practices in all our processes. Try our soaps today and experience the difference of natural skincare!</p>
+                        </div>   
+                        <!-- Knapp för att visa mer information -->
+                        <button class="read-more" onclick="showMoreInfo(); hideButton(this)">READ MORE</button>
+                    </div>
+                
+                </section>
+        <footer>
+            <div>
+                <h2 style="margin-left: 5px;">Contact Us</h2>
+            </div>
+            <div class="footer-contact">
+                <p>Phone: (123) 456-7890</p>
+                <p>&copy; 2024 Soap Shop. All rights reserved.</p>
+            </div>
+        </footer>
+        <script  src="../Index/script.js"></script>
+        <script  src="about.js"></script>
+    </body>
+</html>

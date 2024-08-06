@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Soap shop</title>
+        <link rel="stylesheet"  href="../Index/styles.css">
+    </head>
+    <body>
+        <header>
+            <!-- Logo som länkar till startsidan -->
+            <a href="../index/index.html">
+                <div class="logo"></div>
+            </a>
+            <!-- Navigationsmeny -->
+            <nav class="menu">
+                <!-- Hamburger meny för mobila enheter -->
+                <div id= "hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Navigationslänkar -->
+                <ul id="navLinks" class="navLinks">
+                    <li ><a   href="../Index/index.html">Home</a></li>
+                    <li><a href="../About/About.html">About</a></li>
+                    <li><a href="../Shop/Shop.html">Shop</a></li>
+                    <li><a href="../Courses/Courses.html">Courses</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <body>
+             <!-- Huvudinnehåll sektionen -->
+            <section class="contact-form">
+                <h2>Contact us</h2>
+                <form class="contactForm">
+                    <label for="name">Name Surname</label>
+                    <input id="name" name="name" type="text" placeholder=" Elon Mask" required>
+                    <label for="email">E-mail</label>
+                    <input id="email" name="mail" type="email" placeholder=" Elon@gmail.com" required>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="tel" placeholder="072 23 23 222" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"  placeholder="Write your message here" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </body>
+        <!-- Footer sektionen -->
+        <footer>
+            <div>
+                <h2 style="margin-left: 5px;">Contact Us</h2>
+            </div>
+            <div class="footer-contact">
+                <p>Phone: (123) 456-7890</p>
+                <p>&copy; 2024 Soap Shop. All rights reserved.</p>
+            </div>
+        </footer>
+        <script  src="../Index/script.js"></script>
+        <script  src="contact.js"></script>
+    </body>
+</html>
